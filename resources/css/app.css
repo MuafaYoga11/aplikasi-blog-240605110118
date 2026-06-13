@@ -1,0 +1,44 @@
+/* resources/css/app.css */
+
+/* Light colour palette */
+:root {
+    --primary-color: #0d6efd; /* Bootstrap primary */
+    --bg-color: #f8f9fa;   /* Light background */
+    --text-color: #212529; /* Dark text */
+    --border-color: #dee2e6;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar navigation */
+aside .nav-link {
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+aside .nav-link:hover,
+aside .nav-link.active {
+    background-color: #e6f7ec; /* light green background */
+    color: #28a745; /* green text */
+    border-left: 4px solid #28a745; /* green left border */
+}
+
+/* Card hover micro‑animation */
+.card {
+    transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+}
+
+/* Toast container */
+#toast-container .toast {
+    min-width: 250px;
+    opacity: 0.95;
+}
