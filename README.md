@@ -1,7 +1,10 @@
 Nama Muafa Hanif Prayogo 
+
 NIM 240605110118
+
 Web aplikasi CMS Blog modern yang dikembangkan dengan Laravel. Dirancang untuk mempermudah manajemen konten blog, penulisan artikel, dan pengelolaan sistem secara efisien dan aman.
-https://youtu.be/uFydDywDzuM?si=ajjYUttCl7FbxMDf
+
+Link Youtube https://youtu.be/uFydDywDzuM?si=ajjYUttCl7FbxMDf
 
 1. Persiapan Server & Database
 Buka aplikasi Laragon, lalu klik tombol "Start All" untuk mengaktifkan server (Apache/Nginx & MySQL).
